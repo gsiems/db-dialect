@@ -1,0 +1,19 @@
+package dialect
+
+const (
+	////////////////////////////////////////////////////////////////////
+	// SQL Dialects
+	StandardSQL = iota + 200
+	PostgreSQL
+	SQLite
+	MySQL
+	MariaDB
+	Oracle
+	MSSQL
+	MSAccess
+	////////////////////////////////////////////////////////////////////
+	// Case folding
+	FoldLower
+	FoldUpper
+	NoFolding
+)
